@@ -6,3 +6,48 @@
 body {
     background-color: black;
 }
+body {
+  background-color: black;
+  color: orange;
+  font-family: Arial;
+  text-align: center;
+  padding-top: 50px;
+  font-style: italic
+}
+
+button {
+  background-color: orange;
+  color: black;
+  padding: 15px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
+
+/* This fixes the table so it is visible against the black background */
+.modern-table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.modern-table th, .modern-table td {
+  border: 2px solid orange;
+  padding: 12px;
+  color: orange;
+}
+/* Custom styling for your marquee */
+.theme-marquee {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
