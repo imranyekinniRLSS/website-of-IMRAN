@@ -21,7 +21,7 @@ document.addEventListener("click", (event) => {
   setTimeout(() => boom.remove(), 600);
 });
 
-// --- 2. NUMBER GUESSING SYSTEM ---
+// --- 2. NUMBER GUESSING THING ---
 function checkNumber() {
   const num = document.getElementById("numInput").value;
   const messageElement = document.getElementById("numberMessage");
