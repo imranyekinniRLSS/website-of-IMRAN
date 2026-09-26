@@ -30,7 +30,6 @@ function checkNumber() {
     messageElement.textContent = "Please enter a number first!";
   } else if (parseInt(num) === 7) {
     messageElement.textContent = "🎉 You found the lucky number 7!";
-    window.open('https://codepen.dev', '_blank');
   } else {
     messageElement.textContent = "You entered: " + num + ". Try entering the number 7!";
   }
